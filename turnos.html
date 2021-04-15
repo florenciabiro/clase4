@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dra. Florencia Biro</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Halant&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<header>
+    <div class="contenedor-header">
+        <h1>Dra. Florencia Biro</h1>
+        <p>Especista en Endocrinología Ginecológica y Reproducción</p>
+        <button class="boton-header">
+            <a class="nav-link" href="turnos.html">Reserve su Turno</a>
+           
+            
+        </button>
+    </div>
+
+
+</header>
+<nav>
+
+    <ul class="nav">
+        <li>
+            <a href="index.html" class="nav-link" >Acerca de Mí</a>
+        </li>
+        
+       
+        <li>
+            <a href="turnos.html" class="nav-link">Turnos</a>
+        </li>
+        
+
+</ul>
+</nav>
+<body>
+
+<div class="formulario">
+    <form action="#" method="POST">
+        <h2>Para contactarme llenar el siguiente formulario</h2>   
+    
+        <div class="form-especialidad"></div>
+            <h3> Indique la Subespecialidad Requerida</h3>   
+            <input type="radio" name="Subespecialidad" value="Gineco">
+            <label>Ginecologia</label>
+       
+            <input type="radio" name="Subespecialidad" value="Sistemas">
+            <label>Fertilidad</label>
+        
+            <input type="radio" name="Subespecialidad" value="Sistemas">
+            <label>Climaterio</label>
+       
+            <input type="radio" name="Subespecialidad" value="Sistemas">
+            <label>Cirugia ginecologica</label>       
+
+          
+
+        
+            <h3>Indique la Modalidad de consulta</h3>
+            <ol>
+                <li>
+                    <input type="checkbox" name="presencial" value="pres" id="pres" />
+                    <label for="Tester">Presencial</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="teleconsulta" value="tele" id="tele" />
+                    <label for="Webmaster">Teleconsulta</label>
+                </li>
+            </ol>
+        
+            <h3>Ingrese sus datos personales </h3>
+            <p>
+                <label for="nom">Nombre</label>
+                <input type="text" name="nombre" placeholder="ingrese su nombre" required/>
+            
+            </p>
+            <p>
+                <label for="Apellido">Apellido</label>
+                <input type="text" name="apellido" placeholder="ingrese su apellido" required />
+            
+            </p>
+            <p>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" min="18" max="65" required></label>
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="correo" required></label>
+            </p>
+            <button class="boton-turnos type="submit">Enviar Formulario</button>
+            <button class="boton-turnos type="reset">Borrar Formulario</button></p>
+    </form>
+
+</div>
+
+  <aside>
+        <h1>Deje aqui sus comentarios</h1>
+        <label for="Comentario">Agregue un Cometario</label> <br>
+        <textarea name=Comentario inputmode="text" required></textarea>
+        <button class="boton-turnos type="submit">Enviar Formulario</button>
+        <button class="boton-turnos" type="delete">Borrar Formulario</button></p>
+    </aside>
+</body>
+
+  
+
+    <div class="clearfix"></div>
+
+    <footer>
+        Florencia Biro WEB &copy; 2021
+    </footer>

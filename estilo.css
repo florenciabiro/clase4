@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2, .btn {
+    font-family: 'Halant', serif;
+}
+ h3,h4,h5{
+    font-family: 'Nunito Sans', sans-serif;
+ }
+
+span{
+    color: rgb(220, 20, 60);
+}
+header{
+    background-image: url(imagenescv/rsz_quirofano.jpg);
+    background-size: cover;
+    height: 400px;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    }
+h1{
+    font-weight: 200;
+}
+.contenedor-header{
+    text-align: center;
+    font-weight: 50%;
+    color: rgb(17, 228, 210);
+    padding-top: 50px;
+    font-size: 25px;
+}
+.boton-header, .boton-ver, .boton-turnos{
+    color: rgb(17, 228, 210);
+    background-color: rgb(15, 115, 122);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+ nav{
+    background-color: rgb(2, 97, 89);
+    height: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+ul li{
+    
+    list-style: none;
+    margin-left: 10px;
+    display: inline;
+    height: 40px;
+    width: fit-content;
+    line-height: 40px;
+    font-size: 20px;
+  }
+.nav-link{
+    text-decoration: none;
+    color: rgb(17, 228, 210);
+    padding: 10px;
+}   
+.sec1{
+    background-color: rgb(216, 215, 223);
+    overflow: auto;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.contenedor-tarjetas h2{
+    color: rgb(180, 15, 42);
+}
+img{
+    margin: 10px;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2),2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+   
+}
+.sec1 img{
+    float: left;
+}
+a:hover {
+    color: #9b1ca0;
+    background-color:white;
+  }
+
+article{
+
+background-color: violet
+;}
+
+.sec2{
+    text-align: center;
+    border-bottom: 2px solid rgb(243, 62, 62);
+    background-color: rgb(2, 97, 89);
+    color: rgb(17, 228, 210);
+    font-weight: 200;
+}
+.tarjeta>img{
+    width: 200px;
+    height: 200px;
+}
+.contenedor-tarjetas{
+    width: 100%;
+    height: 440px;
+    
+    display: inline-block;
+    margin: auto;
+    padding: 10px;
+    
+}
+.tarjeta{
+    
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding:10px;
+    width: 300px;
+    float: left;
+    margin: 5px;
+    text-align: center;
+    min-height: 420px;
+}
+.tarjeta img{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+  
+  body {
+    font-family: Montserrat, sans-serif;
+  }
+  .contenedor-cursos{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 16px;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.2);
+      padding: 25px;
+  }
+  .contenedor-cursos li{
+      text-align:left ;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 26px;
+      line-height: 3em;
+      color: rgb(36, 1, 24);
+  }
+ 
+ .sec3{
+    text-align: center;
+    line-height: normal;
+    background-color: rgb(2, 97, 89);
+    color: rgb(17, 228, 210);
+    font-weight: 200;
+  }   
+ .contenedor-publicaciones{
+    width: max-content;
+    text-align: center;
+    margin:auto;
+ }
+ 
+ .tarjeta-horizontal{
+     background-color: rgb(138, 236, 236);
+    height: 500px;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2),2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    color: rgb(78, 11, 126);
+    width: 500px;
+    float: left;lo necesito para que suba con el inline si lo saco se escalonan*/
+    display: inline-block; 
+
+ }
+
+ .tarjeta-horizontal img{
+     float: left;
+     width: 200px;
+     box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2),2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+     display: inline-block;
+ }
+ 
+ 
+.formulario{
+    background-color: rgb(111, 221, 212);
+    padding: 10px;
+    margin: 10px;
+    width: 75%;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    line-height: 3em;
+  
+}
+
+ aside{
+    color: thistle;
+    background-color: rgb(102, 13, 65);
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2),2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    float: left;
+    width: calc(20% - 20px);
+    height: 600px;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    
+}
+ textarea{
+     height: 350px;
+ }
+ 
+footer{
+    background-color: rgb(122, 80, 105);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    height: 10px;
+    font-size: 10px;
+   
+}
+
+.clearfix{
+    clear: both;
+}
+
